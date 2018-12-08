@@ -73,4 +73,4 @@ N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱
 ![](/Images/蓝牙信息.png)
 
 ### 12.SATA设备
-![](/Images/ATA设备.png)
+![](/Images/SATA设备.png)
