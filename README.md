@@ -18,17 +18,22 @@ N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱
 
 ### 6.驱动USB
 ①.在 *`EFI-clover-kext-other`* 里放入 *`USBInjectAll.kext`* 和 *`GenericUSBXHCI.kext`* 驱动
+
 ②.在clover里添加端口映射补丁
 ![](/Images/USB端口映射补丁.png)
+
 ③.在打USB端口限制补丁即可驱动所有USB端口
 ![](/Images/USB端口限制补丁.png)
 
 ### 7.更改Windows的GUI
 ①.隐藏 *`Preboot`* 的盘符即可
 ![](/Images/Preboot.png)
+
 ②.记录引导Windows启动的EFI分区的 *`UUID`*
 ![](/Images/UUID.png)
+
 ③.在GUI选项中新增一个启动项，命名为 *`Windows10`* ，需要添加Windows启动的EFI分区的 *`UUID`* 和指定 *`Windows启动文件路径`* ，并且设置 *`不隐藏`*，类型为 *`Windows`*
+
 ![](/Images/Windows引导.png)
 ④.保存文件，重启即可看到效果
 
