@@ -38,6 +38,7 @@ N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱
 
 ### 8.修改显示器识别
 运行Tools文件夹里的MonitorFace软件之后，插拔显示器就OK了
+
 ![](/Images/MonitorFace.png)
 > 这里非常感谢[lihaoyun6](https://github.com/lihaoyun6)大佬的开源项目 [macOS-Displays-icon](https://github.com/lihaoyun6/macOS-Displays-icon)
 
