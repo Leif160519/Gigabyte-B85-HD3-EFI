@@ -33,14 +33,20 @@ N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱
 ![](/Images/UUID.png)
 
 ③.在GUI选项中新增一个启动项，命名为 *`Windows10`* ，需要添加Windows启动的EFI分区的 *`UUID`* 和指定 *`Windows启动文件路径`* ，并且设置 *`不隐藏`*，类型为 *`Windows`*
-
 ![](/Images/Windows引导.png)
 ④.保存文件，重启即可看到效果
 
+### 8.修改显示器识别
+运行Tools文件夹里的MonitorFace软件之后，插拔显示器就OK了
+![](/Images/MonitorFace.png)
 
 # 效果图
 ### 1.系统信息
 ![](/Images/系统信息.png)
+
+### 2.显示器
+![](/Images/显示器.png)
+![](/Images/显示器2.png)
 
 ### 2.硬件
 ![](/Images/硬件.png)
