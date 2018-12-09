@@ -9,7 +9,7 @@
 ![](/Images/声卡注入.png)
 
 ### 4.驱动N卡(A卡暂不介绍)
-N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱，若用webdrive驱动的，别忘了在clover里勾选 *`NVvidiaWeb`*
+N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱，若用webdrive驱动的，别忘了在clover里勾选 *`NvidiaWeb`*
 ![](/Images/webdrive.png)
 
 ### 5.Clover分辨率
