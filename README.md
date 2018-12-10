@@ -14,7 +14,9 @@ N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱
 
 N卡下载并安装(更新)命令:
 
+```
 bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh)
+```
 
 ![](/Images/Nvidia-Update.png)
 
