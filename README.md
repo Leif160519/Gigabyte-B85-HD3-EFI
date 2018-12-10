@@ -11,6 +11,11 @@
 ### 4.驱动N卡(A卡暂不介绍)
 N卡一般用Webdrive驱动就可以了，7、9系列显卡大部分直接免驱，若用webdrive驱动的，别忘了在clover里勾选 *`NvidiaWeb`*
 ![](/Images/webdrive.png)
+N卡下载并安装(更新)命令:
+
+bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh)
+![](/Images/Nvidia-Update.png)
+
 
 ### 5.Clover分辨率
 以下选项请勿勾选，1080P下勾不勾选无所谓，若分辨率超过1080P，请勿勾选，否则clover界面显示很扁，很难看。
