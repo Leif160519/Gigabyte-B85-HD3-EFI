@@ -52,7 +52,7 @@ bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/m
 > 这里非常感谢[lihaoyun6](https://github.com/lihaoyun6)大佬的开源项目 [macOS-Displays-icon](https://github.com/lihaoyun6/macOS-Displays-icon)
 
 ### 9.解决处理器变频问题
-变频一定要在SMBIOS中选择争取的机型才可以，不用SSDT直接通过配置 *`config.plist`* 文件即可实现变频
+变频一定要在 *`SMBIOS`* 中选择正确的机型才可以，不用SSDT直接通过配置 *`config.plist`* 文件即可实现变频
 ![](/Images/变频-Acpi.png)
 ![](/Images/变频-Boot.png)
 
