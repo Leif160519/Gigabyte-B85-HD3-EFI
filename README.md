@@ -53,6 +53,7 @@ bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/m
 
 ### 9.解决处理器变频问题
 变频一定要在 *`SMBIOS`* 中选择正确的机型才可以，不用SSDT直接通过配置 *`config.plist`* 文件即可实现变频
+![](/Images/变频-SMBIOS.png)
 ![](/Images/变频-Acpi.png)
 ![](/Images/变频-Boot.png)
 
