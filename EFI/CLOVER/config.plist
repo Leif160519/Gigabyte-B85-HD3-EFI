@@ -79,17 +79,27 @@
 			<false/>
 			<key>Generate</key>
 			<dict>
+				<key>APLF</key>
+				<true/>
+				<key>APSN</key>
+				<true/>
 				<key>CStates</key>
-				<false/>
+				<true/>
 				<key>PStates</key>
-				<false/>
+				<true/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
+			<key>PluginType</key>
+			<string>1</string>
+			<key>UseSystemIO</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0</string>
+		<string>dart=0 -xcpm</string>
 		<key>Debug</key>
 		<false/>
 		<key>Default Loader</key>
@@ -103,7 +113,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>CPU</key>
 	<dict>

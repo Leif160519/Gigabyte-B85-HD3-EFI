@@ -51,6 +51,11 @@ bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/m
 ![](/Images/MonitorFace.png)
 > 这里非常感谢[lihaoyun6](https://github.com/lihaoyun6)大佬的开源项目 [macOS-Displays-icon](https://github.com/lihaoyun6/macOS-Displays-icon)
 
+### 9.解决处理器变频问题
+变频一定要在SMBIOS中选择争取的机型才可以，不用SSDT直接通过配置 *`config.plist`* 文件即可实现变频
+![](/Images/变频-Acpi.png)
+![](/Images/变频-Boot.png)
+
 # 效果图
 ### 1.系统信息
 ![](/Images/系统信息.png)
@@ -91,3 +96,6 @@ bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/m
 
 ### 12.SATA设备
 ![](/Images/SATA设备.png)
+
+### 13.变频曲线(晃动鼠标会突然高频，可能变频还不完美)
+![](/Images/变频效果.png)
